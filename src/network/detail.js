@@ -16,7 +16,7 @@ export function getRecommed() {
 }
 
 export class Goods {
-    constructor(itemInfo, columns,services) {
+    constructor(itemInfo, columns, services) {
         this.title = itemInfo.title
         this.desc = itemInfo.desc
         this.newPrice = itemInfo.price
